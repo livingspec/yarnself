@@ -1,0 +1,18 @@
+{
+  "name": "@livingspec/root",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "g:build": "cd $INIT_CWD && tsc -b tsconfig.json",
+    "build": "yarn workspaces foreach -pt run build"
+  },
+  "devDependencies": {
+    "@yarnpkg/core": "^2.4.0",
+    "@yarnpkg/plugin-essentials": "^2.4.0",
+    "@yarnpkg/plugin-pack": "^2.2.3",
+    "typescript": "^4.2.3"
+  }
+}

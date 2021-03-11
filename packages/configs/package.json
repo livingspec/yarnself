@@ -1,0 +1,6 @@
+{
+  "name": "@livingspec/configs",
+  "dependencies": {
+    "@tsconfig/recommended": "^1.0.1"
+  }
+}

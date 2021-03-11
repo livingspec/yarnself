@@ -1,0 +1,3 @@
+{
+  "extends": "@livingspec/configs/tsconfig.json"
+}

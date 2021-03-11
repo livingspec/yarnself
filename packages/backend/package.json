@@ -1,0 +1,13 @@
+{
+  "name": "@livingspec/backend",
+  "scripts": {
+    "build": "yarn g:build"
+  },
+  "exports": {
+    "./": "./dist"
+  },
+  "dependencies": {
+    "@livingspec/backend": "link:.",
+    "@livingspec/configs": "workspace:packages/configs"
+  }
+}
