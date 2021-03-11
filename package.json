@@ -12,7 +12,9 @@
   "devDependencies": {
     "@yarnpkg/core": "^2.4.0",
     "@yarnpkg/plugin-essentials": "^2.4.0",
-    "@yarnpkg/plugin-pack": "^2.2.3",
+    "@yarnpkg/plugin-pack": "^2.2.3"
+  },
+  "dependencies": {
     "typescript": "^4.2.3"
   }
 }

@@ -7,7 +7,6 @@
     "./": "./dist"
   },
   "dependencies": {
-    "@livingspec/backend": "link:.",
     "@livingspec/configs": "workspace:packages/configs"
   }
 }
